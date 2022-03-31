@@ -1,0 +1,40 @@
+
+.pad {
+ color: #ff6b00;
+ width: 566px;
+ height: 160px;
+ font-family: "Crete Round", serif;
+ font-style: normal;
+ font-size: 50px;
+ font-weight: 400;
+ line-height: 82px;
+ padding: 40px 0 0 70px;
+    
+}
+.scrollspy-example {
+    background:rgb(29, 22, 22) url(./Desktop/victor1.png) no-repeat 100% 10%;
+    height: 600px;
+   
+
+}
+
+.software {
+    color: white;
+    width: 280px;
+
+}
+
+@media (max-width: 768px) {
+    .scrollspy-example { 
+        background:rgb(29, 22, 22) url(./Desktop/Group.png) no-repeat 100% 90%;
+    }
+    .pad {
+        
+        padding: 30px 0 0 10px;
+    }
+    .software {
+        padding: 0 0 0 10px ;
+    
+    }
+           
+}
